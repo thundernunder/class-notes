@@ -1,0 +1,11 @@
+07-19-2022 Web API's Day 1
+
+Window Object
+- literal browser window displayed as the object it is 
+	- has multiple property
+	- incluidng document property, which is the page's html
+
+*friendly reminder that nested elements are referred to as a parent/child relationship. ex: <body> = parent element
+			<h1>Hello</> = child element of body 
+
+08 IS TAKEHOME ACTIVITY!

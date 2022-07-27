@@ -1,0 +1,23 @@
+07-12-2022 Javascript
+
+
+Examples of JavaScript
+- bank website hiding your personal data
+- fetch weather data and update webpage based on location, etc...
+- we form that tells you they are missing any info (password too short, not enough characters, etc...)
+
+"Loosely typed language" RESEARCH
+- can actively change datatype of any variable 
+- 
+
+DRY (Don't Repeat Yourself)
+- Write code that is not repetitive
+
+Datatypes (see class content folder 5)
+- string, number, bigInt, boolean, NaN, undefined
+	- boolean returns true or false
+
+typeOf
+- tells you the datatype of input
+	- ex. typeOf(variable);
+

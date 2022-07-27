@@ -1,0 +1,33 @@
+07-18-2022 Javascript Day Three
+
+Methods
+- can do powerful things with code that allows to not have to write code ourselves
+- call on method by adding "." after variables
+- .push adds to the end of your array 
+- .slice creates a new array, leaves original array unchanged. 
+
+Objects
+- datatype that allows us to store multiple datapoints for one variable 
+	- contained in {}
+- unordered lists of data for a variable 
+
+REVIEW LECTURE STARTING AT SOLTUION FOR FOLDER 22
+
+Git Branching
+- useful if multiple people are working within repository 
+- can create additional branches so you can make changes to the files in your local environment without affecting the main branch 
+- create a branch
+	- git branch <NAME OF BRANCH>
+		-example git branch feature/awesomeFeature
+	- git checkout feature/awesomeFeature
+	- you are now in the branch you created (shortcut to go directly 		into branch you created is git checkout -b 	"feature/awesomeFeature" 
+	- all your changes in the created branch will ONLY be reflected on 	your branch, main is untouched. 
+	- use MERGE to reflect changes from created branch on main branch			- git checkout main
+		- git merge <NAME OF BRANCH>, and changes of branch are 			reflected on main branch
+		- git push to update online repository
+
+Git Branch Practice
+READ GIT BRANCH ARTICLE IN RESOURCES
+README FILE IN FOLDER 27 - Git Branch walkthrough 
+
+24 IS TAKEHOME ACTIVITY!

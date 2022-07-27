@@ -1,0 +1,38 @@
+07-11-2022 Advanced CSS
+
+Wireframing 
+https://en.wikipedia.org/wiki/Website_wireframe#/media/File:Profilewireframe.png
+
+- Webpage mockup before we start coding
+	- Provides a feel for goal of webpage feel before actually coding 
+
+Adjcent Sibling Combinator 
+- adding "+" sign means you're styling an element immediately after preceding element 
+	- example: article li + p {
+		Style.....}
+
+Child Comniator (>)
+- select every element that has a certain element embedded within it 
+	- article div > * {
+		{style....} means we're styling every div that is a 	
+		descendent of an article element
+ 
+Attribute Selector
+https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+Custom CSS Variables
+- store specific style in custom names 
+- set the variable in css by using:
+	- :root {
+		--dark: blue
+		--light: yellow
+		--foo: green}
+	- then call the variable later in the css
+		- p {
+			color: var(dark)}
+	- this is big league stuff. organizes code and makes it look 	clean. *START USING THIS IN YOUR CSS. SIMPLE EASY WAY TO IMPRESS 
+	DEVS*
+
+Git Merge Conflicts
+- read README in 01-class-content/02-advanced-css/27
+- merge conflict occurs when changes to the same file are made in two different locations

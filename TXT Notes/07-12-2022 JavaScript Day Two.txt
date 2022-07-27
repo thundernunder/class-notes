@@ -1,0 +1,31 @@
+07-14-2022 Javascript
+
+Javascript oddeven example:
+- var oddEven function(num) {
+	if ( num % 2 === 0) {
+		console.log("even");
+	} else {
+		console.log("nope");
+	}
+
+RESOURCES FOR CODE PRACTICE (ALSO IN SLACK RESOURCES)
+
+1. https://leetcode.com/ *USED BY EMPLOYERS FOR INTERVIEWS
+2. https://www.codewars.com/
+3. https://www.hackerrank.com/
+
+Array 
+- store multiple variables 
+- denotes with []
+	- example: var names = ["Nate", "Kristen", "Henry", "Emily", 				"Lucy"]
+
+For Loop
+- execute code multiple times 
+	-"variable = VALUE; run through this condition if true; do 	this"
+	- syntax: for (var = VALUE; conditional statement; iterator
+	- for (var = i; i > 5; i++) {
+		console.log(`This is the current value of i: 			${i}.`);
+
+Functions
+- declaration is available at website compile time, meaning you can call it anytime. it's "hoisted" (available at global level)
+- expressions is not available at website compile time because it is "not hoisted". can only used function expressions by calling it 
