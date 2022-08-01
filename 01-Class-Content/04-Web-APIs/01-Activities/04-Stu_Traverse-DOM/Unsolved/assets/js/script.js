@@ -10,6 +10,6 @@ var coolTitle = document.getElementById("h1-title");
 
 var bigTitle = document.getElementById('articles').children[0].children[1];
 
-coolTitle.style.color = "white";
+coolTitle.style.backgroundColor = 'yellow';
 
 bigTitle.style.fontSize = '50px';

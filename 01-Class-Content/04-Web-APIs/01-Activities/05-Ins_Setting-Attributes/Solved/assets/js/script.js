@@ -19,8 +19,10 @@
  imgEl[0].setAttribute("style", "width:50%");
 
 // Loops through divTags to set each one to have the color blue and the font size of 30px
+// divTags.length means total amount of divs in document
 for (var i = 0; i < divTags.length; i++) {
   divTags[i].setAttribute("style", "color:blue; font-size: 30px");
+  // divTags[i] means the style will be applied to each divTag as the for loop gets to it
  }
 
  

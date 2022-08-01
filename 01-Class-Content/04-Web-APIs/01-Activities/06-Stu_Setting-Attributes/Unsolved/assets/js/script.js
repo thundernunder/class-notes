@@ -24,14 +24,12 @@ site3El.children[1].children[0].setAttribute("style", "padding:10px;");
 
 var hTags = document.querySelectorAll("h4");
 
-var bigTitle = document.querySelector("h1");
-
-var controlImage = document.getElementById("coo-image");
-
-controlImage.setAttribute("style", "width: 50%;");
-
-bigTitle.setAttribute("style", "padding-left: 30px; margin: 0;");
-
 for (var i=0; i < hTags.length; i++) {
-    hTags[i].setAttribute("style", "color: blue; font-size: 30px; font-weight: bold;")
+        hTags[i].setAttribute("style", "color: blue; font-size: 30px; font-weight: bold; padding-left: 10px; margin: 0");
+}
+
+var allDivs = document.querySelectorAll('div');
+
+for (var i=0; i < allDivs.length; i++) {
+    allDivs[i].setAttribute('style', 'background-color: yellow; font-size: 20px')
 }
